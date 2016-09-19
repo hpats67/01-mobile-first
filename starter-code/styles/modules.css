@@ -77,15 +77,18 @@
 @media only screen and (min-width: 640px) {
   .icon-menu {
     display: none;
-
   }
 
   .main-nav ul {
     display: block;
+    padding-left: 12px;
   }
 
   .main-nav li {
     display: inline;
+    /*Takes out bottom border*/
+    border-bottom: none;
+    padding-right: 24px;
   }
 
 
